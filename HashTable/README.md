@@ -6,13 +6,13 @@ HashTable 类，也叫 HashMap 类，是 Dictionary 类的一种散列表实现�
 
 举个例子，我们继续使用上面字典中的代码示例。我们将要使用最常见的散列函数 - 'lose lose'散列函数，方法是简单地将每个键值中的每个字母的 ASCII 值相加。如下图：
 
-![](../img/HashTable.png)
+![](../img/HashTable.jpg)
 
 对于 HashTable 类来说，我们不需要像 ArrayList 类一样从 table 数组中将位置也移除。由 于元素分布于整个数组范围内，一些位置会没有任何元素占据，并默认为 undefined 值。我们也 不能将位置本身从数组中移除（这会改变其他元素的位置），否则，当下次需要获得或移除一个 元素的时候，这个元素会不在我们用散列函数求出的位置上。
 
 下面的图表展现了包含这三个元素的 HashTable 数据结构:
 
-![](../img/HashTable2.png)
+![](../img/HashTable2.jpg)
 
 **散列表和散列集合**
 
@@ -53,7 +53,7 @@ hash.put('Nathan', 'nathan@email.com');
 
 例如，我们在之前的测试代码中使用分离链接的话，输出结果将会是这样：
 
-![](../img/HashTable_SeparateChaining.png)
+![](../img/HashTable_SeparateChaining.jpg)
 
 * 在位置 5 上，将会有包含三个元素的 LinkedList 实例
 * 在位置 13、16 和 32 上，将会有包含两个元素的 LinkedList 实例
@@ -67,7 +67,7 @@ hash.put('Nathan', 'nathan@email.com');
 
 当想向表中某个位置加人一个新元素的时候，如果索引为 index 的位置已经被占据了，就尝试 index+1 的位置。如果 index+1 的位置也被占据了，就尝试 index+2 的位置，以此类推。如下图：
 
-![](../img/HashTable_LinearSearch.png)
+![](../img/HashTable_LinearSearch.jpg)
 
 **更多函数**
 

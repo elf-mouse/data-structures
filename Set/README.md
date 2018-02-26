@@ -21,22 +21,22 @@
 
 并集的数学概念：集合 A 和 B 的并集，表示为 `A∪B`，定义如下：`A∪B = { x | x∈A ∨ x∈B }`，意思是 x（元素）存在于 A 中，或 x 存在于 B 中。如图：
 
-![](../img/union.png)
+![](../img/union.jpg)
 
 **交集**
 
 并集的数学概念：集合 A 和 B 的交集，表示为 `A∩B`，定义如下：`A∩B = { x | x∈A ∧ x∈B }`，意思是 x（元素）存在于 A 中，且 x 存在于 B 中。如图：
 
-![](../img/intersection.png)
+![](../img/intersection.jpg)
 
 **差集**
 
 差集的数学概念：集合 A 和 B 的差集，表示为 `A-B`，定义如下：`A-B = { x | x∈A ∧ x∉B }`，意思是 x（元素）存在于 A 中，且不 x 存在于 B 中。如图：
 
-![](../img/difference.png)
+![](../img/difference.jpg)
 
 **子集**
 
 子集的数学概念：集合 A 是 B 的子集，或者说集合 B 包含了集合 A，如图：
 
-![](../img/subset.png)
+![](../img/subset.jpg)
